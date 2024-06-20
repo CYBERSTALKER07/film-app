@@ -1,5 +1,5 @@
 export const user_routes = {
-    home: "/admin",
+    home: "/",
     search: "/search",
     watch: "/watch",
   }
