@@ -1,6 +1,8 @@
 export const user_routes = {
     home: "/",
     search: "/search",
-    watch: "/watch",
+    watchlist: "/watchlist",
+
+    movieShow: "/movie/:id/show"
   }
   
