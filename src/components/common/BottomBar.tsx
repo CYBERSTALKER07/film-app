@@ -25,7 +25,7 @@ const BottomBar: React.FC<IBottomBarProps> = ({ menuList }) => {
         navigate(route)
     }, [])
     return (
-        <Box className='AppBar'>
+        <Box className='AppBar' sx={{ width: "100%", position: "absolute", bottom: 0}}>
             <BottomNavigation
                 showLabels
                 value={value}

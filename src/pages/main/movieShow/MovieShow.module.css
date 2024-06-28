@@ -1,14 +1,35 @@
-.handlePrevPageIcon{
-  width: 20px;
+.itemsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
   
+  .card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 1rem;
+    background-color: #fff;
+    width: 200px;
+  }
+  
+  .card img, .card video {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  h1{
+    color: white;
+    font-size: 30px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  header{
+    margin-right: auto;
+    margin-left: auto;
+    height: 100px;
+    width: 100%;
+    align-items: center;
+  }
 
-
-
-
-
-
-
-
-
-
-}
+ 

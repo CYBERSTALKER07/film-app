@@ -22,7 +22,7 @@ const MovieShow: React.FC<MovieShowProps> = () => {
     }, [navigate]);
 
     return (
-        <div>
+        <div className='movieshow'>
             <header>
                 <div className='handlePrevPageIcon' onClick={handlePrevPage}><BackIcon label="Back" /></div>
                 <h1>Movie Detail</h1>

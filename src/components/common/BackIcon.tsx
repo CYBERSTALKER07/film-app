@@ -1,5 +1,5 @@
 import React from 'react';
-import { Backup, BackupOutlined } from '@mui/icons-material';
+import { ArrowBack, Backspace, Backup, BackupOutlined } from '@mui/icons-material';
 import { Icon } from '@mui/material';
 
 
@@ -9,7 +9,7 @@ interface BackIconProps {
 
 const BackUp = {
     label: 'Back',
-    Icon: <BackupOutlined />
+    Icon: <ArrowBack />
 }
 
 const BackIcon: React.FC<BackIconProps> = () => {
